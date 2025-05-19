@@ -1,0 +1,6 @@
+{
+  "css.styleSheets": [
+    "TimelineJS3/dist/css/themes/timeline.theme.dark.css",
+    "TimelineJS3/dist/css/fonts/font.default.css"
+  ]
+}

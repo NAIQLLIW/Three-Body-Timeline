@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <link href="./TimelineJS3/dist/css/themes/timeline.theme.dark_modified.css" rel="stylesheet" />
+    <link href="./src/css/trigger-tooltip.css" rel="stylesheet" />
+    <script src="./TimelineJS3/dist/js/timeline.js"></script>
+
+    <title>Three Body Timeline</title>
+
+    <style>
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+        margin: 0px;
+      }
+
+      #timeline_container {
+        height: 100%;
+      }
+
+      .tl-storyslider > div.tl-slider-background.tl-animate {
+        background-color: inherit !important;
+      }
+
+      ::selection {
+        background: rgba(207, 176, 157, 0.3);
+        color: #fff;
+      }
+
+      ::-webkit-scrollbar {
+        display: block;
+        width: 8px;
+      }
+      ::-webkit-scrollbar-thumb {
+        border-radius: 8px;
+        background-color: #888;
+      }
+      ::-webkit-scrollbar-track {
+        border-radius: 8px;
+        background-color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="timeline-container"></div>
+
+    <script src="./src/js/trigger-tooltip.js"></script>
+
+    <script>
+      const timelineData = "./data.json";
+      window.timeline = new TL.Timeline("timeline-container", timelineData, {
+        font: "./TimelineJS3/dist/css/fonts/font.default_modified.css",
+      });
+
+      function handleDynamicElements(
+        selector,
+        callback,
+        container = document.body,
+        timeout = 30000
+      ) {
+        const processedElements = new WeakSet();
+
+        const observer = new MutationObserver((mutations) => {
+          mutations.forEach((mutation) => {
+            mutation.addedNodes.forEach((node) => {
+              if (node.nodeType !== Node.ELEMENT_NODE) return;
+
+              if (node.matches(selector)) {
+                if (!processedElements.has(node)) {
+                  processedElements.add(node);
+                  callback(node);
+                }
+              }
+
+              const childrenMatches = node.querySelectorAll(selector);
+              childrenMatches.forEach((element) => {
+                if (!processedElements.has(element)) {
+                  processedElements.add(element);
+                  callback(element);
+                }
+              });
+            });
+          });
+        });
+
+        observer.observe(container, {
+          childList: true,
+          subtree: true,
+        });
+
+        timeoutId = setTimeout(() => {
+          observer?.disconnect();
+        }, timeout);
+
+        return () => observer.disconnect();
+      }
+
+      handleDynamicElements(
+        "span.td",
+        async (element) => {
+          await loadGlossaryData();
+          initTooltip(replaceTag(element));
+        },
+        document.getElementById("timeline-container")
+      );
+
+      handleDynamicElements(
+        "h3.tl-headline-date",
+        (element) => {
+          element.innerHTML = element.innerHTML
+            .replace("[[br]]", "<br />")
+            .replace("[[dash]]", "—");
+        },
+        document.getElementById("timeline-container")
+      );
+
+      handleDynamicElements(
+        "div.tl-slidenav-description",
+        (element) => {
+          let timer;
+          const observer = new MutationObserver(
+            (mutations) => {
+              clearTimeout(timer);
+              timer = setTimeout(() => {
+                element.innerHTML = element.innerHTML
+                  .replace("[[br]]", "<br />")
+                  .replace("[[dash]]", "—");
+              }, 500);
+            }
+          );
+          observer.observe(element, { childList: true, characterData: true });
+        },
+        document.getElementById("timeline-container")
+      );
+    </script>
+  </body>
+</html>
