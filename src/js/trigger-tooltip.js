@@ -3,7 +3,7 @@ let glossaryData = null;
 async function loadGlossaryData() {
   if (glossaryData === null) {
     try {
-      const response = await fetch("/glossary.json");
+      const response = await fetch("glossary.json");
       if (!response.ok) throw new Error("fail to load glossary.json");
       glossaryData = await response.json();
     } catch (error) {
