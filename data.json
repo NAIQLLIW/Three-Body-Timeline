@@ -131,6 +131,36 @@
         "text": "<ul>\n<li>Lots of theorists and physicists commit suicide. </li>\n<li>Yang commits suicide after she knows her mother <span class=\"td\">Ye's secret</span>. </li>\n<li>Wang Miao, a nanotechnologist, initially contacts the <span class=\"td\">Frontiers of Science</span>. He meets Shi Qiang for the first time; after, he is invited to the operation center. </li>\n<li>A countdown is appeared on the photos Wang takes. Subsequently, it is projected onto the retina of Wang's eyes. Wang is so terrified. At this time, someone who belongs to the <span class=\"td\">Frontiers of Science</span> tells him to pause his experiment. After Wang paused it, the countdown in his retina is also paused and disappeared. </li>\n<li>Wang plays the <span class=\"td\"><i>Three Body</i></span> game. He realizes who is the enemy of the Earth. </li>\n<li>Shi designs the operation Guzheng. The government attacks a converted oil tanker of ETO which is housing ETO's communications with Trisolaris. From this action, Earth's government directly learns the existence of <span class=\"td\">Trisolaris</span>. </li>\n<li>Ye talks the <span class=\"td\">universe sociology</span> with Luo Ji. Ye dies of an illness. </li>\n<li><span class=\"td\">Trisolarans</span> and <span class=\"td\">ETO</span>'s pursuit of Luo begins.</li>\n</ul>"
       },
       "display_date": "Golden Age[[br]]Common Era 2007"
+    },
+    {
+      "start_date": {
+        "year": 2008
+      },
+      "text": {
+        "headline": "PDC Is Established",
+        "text": "<p>The United Nations announces that change the era to Crisis Era.</p>\n<p><span class=\"td\">Planetary Denfense Council</span> (<span class=\"td\">PDC</span>) is established.</p>\n<p><span class=\"td\">Hibernation</span> technology is being used.</p>"
+      },
+      "display_date": "Crisis Era 1[[br]]Common Era 2008"
+    },
+    {
+      "start_date": {
+        "year": 2010
+      },
+      "text": {
+        "headline": "PIA Is Established",
+        "text": "<p>PDC Strategic Intelligence Agency (PIA) is established.</p>\n<p><span class=\"td\">Staircase Program</span> is launched.</p>\n<p>The General Assembly of the United Nations adopts the No.117 resolution, announces that <span class=\"td\">ecapism</span> is illegal.</p>\n<p><span class=\"td\">Wallfacer Project</span> is launched. Frederick Tyler, Manuel Rey Diaz, Bill Hines, and Luo Ji are four <span class=\"td\">wallfacers</span>. </p>\n<p><span class=\"td\">ETO</span> appoints three <span class=\"td\">wallbreakers</span> to guess and break first three <span class=\"td\">wallfacers</span>' planning. </p>\n<p><span class=\"td\">ETO</span> attempts to assassinate Luo. It is failed. <p>"
+      },
+      "display_date": "Crisis Era 3[[br]]Common Era 2010"
+    },
+    {
+      "start_date": {
+        "year": 2011
+      },
+      "text": {
+        "headline": "Stars Our Destination Project",
+        "text": "<p><span class=\"td\">Stars Our Destination Project</span> is launched. </p>"
+      },
+      "display_date": "Crisis Era 4[[br]]Common Era 2011"
     }
   ],
   "eras": [
@@ -177,7 +207,7 @@
     },
     {
       "start_date": {
-        "year": 2007
+        "year": 2008
       },
       "end_date": {
         "year": 2208
