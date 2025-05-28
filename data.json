@@ -1,4 +1,10 @@
 {
+  "title": {
+    "text": {
+      "headline": "Three Body",
+      "text": "Timeline of the book <i>Three Body</i> by Liu Cixin."
+    }
+  },
   "events": [
     {
       "start_date": {
@@ -47,7 +53,7 @@
       },
       "text": {
         "headline": "Trisolarans Receive Message",
-        "text": "<p>The <span class=\"td\">No.1379 Trisolaran Listener</span> receives and decodes the message sent by Ye. It replies and warns humans who do not reply to this message.</p>\n<p><span class=\"td\">Trisolarans</span> know the existence of humans. <p>"
+        "text": "<p>The <span class=\"td\">No.1379 Trisolaran Listener</span> receives and decodes the message sent by Ye. It warns huamans not to reply to this message in its reply message. </p>\n<p><span class=\"td\">Trisolarans</span> know the existence of humans. <p>"
       },
       "display_date": "Common Era 1975"
     },
@@ -57,7 +63,7 @@
       },
       "text": {
         "headline": "Ye Replies",
-        "text": "Ye receives the reply from the <span class=\"td\">Trisolaran</span> Listener; then she replies again."
+        "text": "Ye receives the reply from the Trisolaran Listener; then she replies again."
       },
       "display_date": "Common Era 1979"
     },
@@ -118,7 +124,7 @@
       },
       "text": {
         "headline": "Sophons Arrive & Frontiers of Science Is Established",
-        "text": "<p>Two <span class=\"td\">Sophons</span> launched by <span class=\"td\">Trisolarans</span> arive at the Earth. The basic sciences of humans is stopped.<p>\n<p>In the same year, the <span class=\"td\">Frontiers of Science</span> organization is established. </p>"
+        "text": "<p>Two <span class=\"td\">Sophons</span> launched by <span class=\"td\">Trisolarans</span> arrive at the Earth. The basic sciences of humans is stopped.<p>\n<p>In the same year, the <span class=\"td\">Frontiers of Science</span> organization is established. </p>"
       },
       "display_date": "Golden Age[[br]]Common Era 2005"
     },
@@ -128,7 +134,7 @@
       },
       "text": {
         "headline": "The Beginning",
-        "text": "<ul>\n<li>A lot of theorists and physicists commit suicide. </li>\n<li>Yang commits suicide after she knows her mother <span class=\"td\">Ye's secret</span>. </li>\n<li>Wang Miao, a nanotechnologist, initially contacts the <span class=\"td\">Frontiers of Science</span>. He meets Shi Qiang for the first time; after, he is invited to the operation center. </li>\n<li>A countdown appears on the photos Wang takes. Subsequently, it is projected onto the retina of Wang's eyes. Wang is so terrified. At this time, someone who belongs to the <span class=\"td\">Frontiers of Science</span> tells him to pause his experiment. After Wang paused it, the countdown in his retina is also paused and disappeared. </li>\n<li>Wang plays the <span class=\"td\"><i>Three Body</i></span> game. He realizes who is the enemy of the Earth. </li>\n<li>Shi designs the operation Guzheng. The government attacks a converted oil tanker of ETO which is housing ETO's communication equipments with Trisolaris. From this action, Earth's government directly learns the existence of <span class=\"td\">Trisolaris</span>. </li>\n<li>Ye talks about the <span class=\"td\">cosmic sociology</span> with Luo Ji. Ye dies of an illness. </li>\n<li><span class=\"td\">Trisolarans</span> and <span class=\"td\">ETO</span>'s pursuit of Luo begins.</li>\n</ul>"
+        "text": "<p>A lot of theorists and physicists commit suicide. </p>\n<p>Yang commits suicide after she knows her mother <span class=\"td\">Ye's secret</span>. </p>\n<p>Wang Miao, a nanotechnologist, initially contacts the <span class=\"td\">Frontiers of Science</span>. He meets Shi Qiang for the first time; after, he is invited to the operation center. </p>\n<p>A countdown appears on the photos Wang takes. Subsequently, it is projected onto the retina of Wang's eyes. Wang is so terrified. At this time, someone who belongs to the <span class=\"td\">Frontiers of Science</span> tells him to pause his experiment. After Wang pauses it, the countdown in his retina is also paused and disappears. </p>\n<p>Wang plays the <span class=\"td\"><i>Three Body</i></span> game. He realizes who is the enemy of the Earth. </p>\n<p>Shi designs the operation Guzheng. The government attacks a converted oil tanker of ETO which is housing ETO's communication equipments with Trisolaris. From this action, Earth's government directly learns the existence of <span class=\"td\">Trisolaris</span>. </p>\n<p>Ye talks about the cosmic sociology with Luo Ji. Ye dies of an illness. </p>\n<p><span class=\"td\">Trisolarans</span> and <span class=\"td\">ETO</span>'s pursuit of Luo begins.</p>"
       },
       "display_date": "Golden Age[[br]]Common Era 2007"
     },
@@ -208,7 +214,7 @@
       },
       "text": {
         "headline": "The Droplet",
-        "text": "<p>Luo is revived, but he is unappreciated right now. </p>\n<p>A <span class=\"td\">Droplet</span> launched by <span class=\"td\">Trisolarans</span> destroys almost entire space fleet of humans. Humans are still facing an unimaginable gap of technology between self and <span class=\"td\">Trisolarans</span>, just like 200 years ago. </p>\n<p>Two spaceships escape the Solar System, they want to establish the civilization elsewhere. </p>\n<p>Luo resumes his <span class=\"td\">Wallfacer</span> role. </p>\n<p><span class=\"td\">Snow Project</span> is launched; Luo is the responsible person. </p>"
+        "text": "<p>Luo is revived, but he is unappreciated right; the <span class=\"td\">Wallfacer Project</span> is depreciated. </p>\n<p>A <span class=\"td\">Droplet</span> launched by <span class=\"td\">Trisolarans</span> destroys almost entire space fleet of humans. Humans are still facing an unimaginable gap of technology between self and <span class=\"td\">Trisolarans</span>, just like 200 years ago. </p>\n<p>Two spaceships escape the Solar System. They want to rebuild the civilization elsewhere. </p>\n<p>Luo resumes his <span class=\"td\">Wallfacer</span> role. </p>\n<p><span class=\"td\">Snow Project</span> is launched; Luo is the responsible person. </p>"
       },
       "display_date": "Crisis Era 205[[br]]Common Era 2209"
     },
@@ -228,7 +234,7 @@
       },
       "text": {
         "headline": "The Swordholder",
-        "text": "Luo is the <span class=\"td\">Swordholder</span> now."
+        "text": "Luo is the <span class=\"td\">Swordholder</span>."
       },
       "display_date": "Deterrence Era 8[[br]]Common Era 2215"
     },
@@ -238,7 +244,7 @@
       },
       "text": {
         "headline": "Trisolarans' Culture Reflects on Earth",
-        "text": "<p>The Earth's culture is affected by the <span class=\"td\">Trisolarans</span>. The <span class=\"td\">Trisolaris</span> culture becomes the main stream of the Earth. </p>\n<p>This lays the basis of the future. </p>"
+        "text": "<p>The Earth's culture is affected by the <span class=\"td\">Trisolarans</span>. The <span class=\"td\">Trisolaris</span> culture becomes the mainstream of the Earth. </p>\n<p>This lays the basis of the future. </p>"
       },
       "display_date": "Deterrence Era 20[[br]]Common Era 2217"
     },
@@ -248,7 +254,7 @@
       },
       "text": {
         "headline": "The Second Trisolaris Fleet Is Launched",
-        "text": "The <span class=\"td\">Second Trisolaris Fleet</span> is launched at a speed that is almost lightspeed."
+        "text": "The Second Trisolaris Fleet is launched at a speed that is close to lightspeed."
       },
       "display_date": "Deterrence Era 57[[br]]Common Era"
     },
@@ -258,15 +264,19 @@
       },
       "text": {
         "headline": "Detterence Fails",
-        "text": "Driven by <span class=\"td\">Trisolarans</span>, Cheng Xin is the new <span class=\"td\">Swordholder</span>. At the moment that Cheng takes office, <span class=\"td\">Trisolarans</span> attack the facility used for <span class=\"td\">Dark forest Deterrence</span>. Cheng abandons the deterrence. The facility is destroyed by <span class=\"td\">Trisolarans</span>. Deterrence Era is finished."
+        "text": "Driven by <span class=\"td\">Trisolarans</span>, Cheng Xin is the new <span class=\"td\">Swordholder</span>. At the moment that Cheng takes office, <span class=\"td\">Trisolarans</span> attack the facility used for <span class=\"td\">Dark Forest Deterrence</span>. Cheng abandons the deterrence. The facility is destroyed by <span class=\"td\">Trisolarans</span>. Deterrence Era is finished."
       },
       "display_date": "Deterrence Era 62[[br]]Common Era 2270"
     },
     {
+      "start_date": {
+        "year": 2272
+      },
       "text": {
-        "headline": "After Deterrence[[br]]Common Era 2272",
-        "text": "One of two escaped spaceships launchs cosmic broadcast. <span class=\"td\">Trisolaris</span>' and the Earth's position is exposed. <span class=\"td\">Trisolarans</span>' invasion is failed. The <span class=\"td\">Dark Forest Strike</span> is coming soon."
-      }
+        "headline": "The Cosmic Broadcast",
+        "text": "One of two escaped spaceships launchs cosmic broadcast. <span class=\"td\">Trisolaris</span>' and the Earth's position is exposed in the universe. <span class=\"td\">Trisolarans</span>' invasion is failed. The <span class=\"td\">Dark Forest Strike</span> is coming soon."
+      },
+      "display_date": "After Deterrence[[br]]Common Era 2272"
     },
     {
       "start_date": {
@@ -304,7 +314,7 @@
       },
       "text": {
         "headline": "Bunker Project Is Completed",
-        "text": "The <span class=\"td\">Bunker Project</span> is completed. Humans migrate to bunkers.\nStar Ring Corporation is established. Thomas Wade takes over the position of CEO from Cheng. The company is secretly reseach the <span class=\"td\">Curvature Engine</span>."
+        "text": "The <span class=\"td\">Bunker Project</span> is completed. Humans migrate to bunkers.\nStar Ring Corporation is established. Thomas Wade takes over the position of CEO from Cheng. The company is secretly reseaching the <span class=\"td\">Curvature Engine</span>."
       },
       "display_date": "Bunker Era 1[[br]]Common Era 2334"
     },
@@ -314,9 +324,29 @@
       },
       "text": {
         "headline": "Secret Is Exposed",
-        "text": "The secret researching of the Star Ring Corporation is exposed."
+        "text": "The secret research of the Star Ring Corporation is exposed. The research is stagnated."
       },
       "display_date": "Bunker Era 11[[br]]Common Era 2344"
+    },
+    {
+      "start_date": {
+        "year": 2399
+      },
+      "text": {
+        "headline": "The Dual-Vector Foil",
+        "text": "<span class=\"td\">Singer Civilization</span> throws a <span class=\"td\">Dual-Vector Foil</span> towards the Earth."
+      },
+      "display_date": "Bunker Era 66[[br]]Common Era 2399"
+    },
+    {
+      "start_date": {
+        "year": 2400
+      },
+      "text": {
+        "headline": "Civilization's End",
+        "text": "The <span class=\"td\">Dual-Vector Foil</span> arrives in the Solar System. The Solar System, coupled with humans, is two-dimensionalized, except a spaceship. Cheng, taking the only successfully developed lightspeed spaceship Star Ring, flee to DX3906 solar system."
+      },
+      "display_date": "Bunker Era 67[[br]]Common Era 2400"
     }
   ],
   "eras": [
