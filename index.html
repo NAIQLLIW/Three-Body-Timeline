@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <link href="./TimelineJS3/dist/css/themes/timeline.theme.dark_modified.css" rel="stylesheet" />
     <link href="./src/css/trigger-tooltip.css" rel="stylesheet" />
+    <link href="src/logo.png" rel="shortcut icon" />
     <script src="./TimelineJS3/dist/js/timeline.js"></script>
 
     <title>Three Body Timeline</title>
@@ -110,9 +111,7 @@
       handleDynamicElements(
         "h3.tl-headline-date",
         (element) => {
-          element.innerHTML = element.innerHTML
-            .replace("[[br]]", "<br />")
-            .replace("[[dash]]", "—");
+          element.innerHTML = element.innerHTML.replace("[[br]]", "<br />");
         },
         document.getElementById("timeline-container")
       );
@@ -121,16 +120,12 @@
         "div.tl-slidenav-description",
         (element) => {
           let timer;
-          const observer = new MutationObserver(
-            (mutations) => {
-              clearTimeout(timer);
-              timer = setTimeout(() => {
-                element.innerHTML = element.innerHTML
-                  .replace("[[br]]", "<br />")
-                  .replace("[[dash]]", "—");
-              }, 500);
-            }
-          );
+          const observer = new MutationObserver((mutations) => {
+            clearTimeout(timer);
+            timer = setTimeout(() => {
+              element.innerHTML = element.innerHTML.replace("[[br]]", "<br />");
+            }, 500);
+          });
           observer.observe(element, { childList: true, characterData: true });
         },
         document.getElementById("timeline-container")
